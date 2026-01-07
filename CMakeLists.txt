@@ -1,0 +1,5 @@
+if("${IDF_VERSION_MAJOR}.${IDF_VERSION_MINOR}" VERSION_GREATER_EQUAL "6.0")
+  idf_component_register(INCLUDE_DIRS "include")
+else()
+  idf_component_register()
+endif()
