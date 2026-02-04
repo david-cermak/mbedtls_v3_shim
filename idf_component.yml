@@ -1,4 +1,4 @@
-version: "0.1.0"
+version: "0.1.1"
 url: https://github.com/david-cermak/mbedtls_v3_shim
 license: Apache-2.0
 description: Header only shim for legace mbedtls_v3 API to compile with v4 (on IDF v6+)
